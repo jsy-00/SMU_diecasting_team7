@@ -1,5 +1,7 @@
-streamlit
-tensorflow
-pillow
-numpy
-opencv-python
+streamlit==1.15.0  # Streamlit 버전
+tensorflow==2.16.0  # TensorFlow 버전
+pillow==9.1.1       # Pillow 버전
+numpy==1.21.5       # Numpy 버전
+opencv-python==4.6.0.66  # OpenCV (GUI 사용이 필요한 경우)
+# 또는 서버 환경에서 GUI가 필요 없으면 아래와 같이 사용
+# opencv-python-headless==4.6.0.66  # GUI 없이 OpenCV 사용
